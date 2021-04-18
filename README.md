@@ -1,24 +1,19 @@
-# README
+# Rails URL Shortener CLI Version
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Features
 
-Things you may want to cover:
+Creating users with given email
 
-* Ruby version
+Creating short URL with given link
 
-* System dependencies
+Opening relevant links from shortened links
 
-* Configuration
+Track URL visits
 
-* Database creation
+## Run app
+```bash
+rails runner bin/cli
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## CLI
+![preview](preview.png)
